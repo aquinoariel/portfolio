@@ -1,0 +1,296 @@
+body{
+    position: relative;
+    font-family: 'Baumans', cursive;
+    background-image: url("../imagenes/fondo3.png");
+    .menu{
+        font-family: 'Baumans', cursive;
+        position: absolute;
+        margin-top: 3.125em;
+        margin-left: 46.875em;
+        ul{
+            li{
+                a{
+                    color: white;
+                    font-size: 1.563em;
+                }
+            }
+        }
+    }
+    main{
+        font-family: 'Baumans', cursive;
+        div{
+            .logo{
+                width: 18.750em;
+                margin-left: 18.750em;
+                margin-top: 1.250em;
+            }
+        }
+        section{
+            .yo{
+                position: absolute;
+                width: 43.750em;
+                margin-left: 38.438em;
+                margin-top: 3.688em;
+            }
+        }
+        .fondoBlanco{
+            margin-top: 43.125em;
+            padding-bottom: 9.375em;
+            background-color: #f7fcfd;
+            .skills{
+                display: flex;
+                margin-left: 28.900em;
+                padding-top: 10.750em;
+                margin-bottom: 5em;
+            }
+            .tarjetas{
+                display: grid;
+                grid-template-columns: 18.750em 18.750em 18.750em 18.750em 18.750em;
+                grid-template-rows: 15.750em;
+                margin-top: 0em;
+                margin-left: 14.375em;
+            }
+            .card-img-top{
+                width: 50%;
+                margin-left: 4.688em;
+                margin-top: 1.250em;
+            }
+            .card-img-css{
+                width: 35%;
+                margin-left: 5.813em;
+                margin-top: 1.250em;
+            }
+        }
+        .masFondo{
+            background-color: white;
+            .objetivos{
+                margin-left: 28.000em;
+                padding-top: 9.375em;
+            }
+            .accordion{
+                position: relative;
+                width: 50%;
+                margin-left: 31.563em;
+                padding-top: 5em;
+                padding-bottom: 9.375em;
+            }
+        }
+        .otroFondo{
+            background-color: #f7fcfd;
+            .textTrabajos{
+                padding-left: 28.100em;
+                padding-top: 9.375em;
+            }
+            .trabajo{
+                display: grid;
+                grid-template-columns: 37.500em;
+                grid-template-rows: 21.875em 21.875em 21.875em;
+                padding-left: 40.625em;
+                padding-top: 3.125em;
+            }
+            .imgScreen{
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        font-family: 'Baumans', cursive;
+        background-color: white;
+        .contactoText{
+            padding-left: 28.100em;
+            padding-top: 3.125em;
+        }
+        .iconos{
+            padding-left: 55.125em;
+            .imagenContacto{
+                width: 8%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body{
+        width: 114.3%;
+        main{
+            section{
+                .yo{
+                    margin-left: 29.375em;
+                }
+            }
+            .fondoBlanco{
+                .skills{
+                    margin-left: 24.4em;
+                }
+                .tarjetas{
+                    margin-left: 5em;
+                }
+            }
+            .masFondo{
+                .objetivos{
+                    margin-left: 23.5em;
+                }
+                .accordion{
+                    margin-left: 26.563em;
+                }
+            }
+            .otroFondo{
+                .textTrabajos{
+                    padding-left: 23.5em;
+                }
+                .trabajo{
+                    padding-left: 31.250em;
+                }
+            }
+        }
+        footer{
+            .contactoText{
+                padding-left: 23.7em;
+            }
+            .iconos{
+                padding-left: 46.813em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 168.9%;
+        main{
+            section{
+                .yo{
+                    margin-left: 32.188em;
+                }
+            }
+            .fondoBlanco{
+                .skills{
+                    margin-left: 27.2em;
+                }
+                .tarjetas{
+                    margin-left: 8.125em;
+                }
+            }
+            .masFondo{
+                .objetivos{
+                    margin-left: 26.6em;
+                }
+                .accordion{
+                    margin-left: 27.813em;
+                }
+            }
+            .otroFondo{
+                .textTrabajos{
+                    padding-left: 26.6em;
+                }
+                .trabajo{
+                    padding-left: 34.375em;
+                }
+            }
+        }
+        footer{
+            .contactoText{
+                padding-left: 26.6em;
+            }
+            .iconos{
+                padding-left: 49.750em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        width: 224%;
+        .menu{
+            padding-right: 18.750em;
+        }
+        main{
+            section{
+                .yo{
+                    margin-left: 31.563em;
+                }
+            }
+            .fondoBlanco{
+                .skills{
+                    padding-left: 2em;
+                }
+                .tarjetas{
+                    margin-left: 7.500em;
+                }
+            }
+            .masFondo{
+                .objetivos{
+                    padding-left: 2em;
+                }
+                .accordion{
+                    margin-left: 26.875em;
+                }
+            }
+            .otroFondo{
+                .textTrabajos{
+                    padding-left: 29em;
+                }
+                .imgScreen{
+                    width: 100%;
+                }
+            }
+        }
+        footer{
+            .contactoText{
+                padding-left: 29em;
+            }
+            .iconos{
+                padding-left: 49.9em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body{
+        width: 379%;
+        main{
+            section{
+                .yo{
+                    margin-left: 28.125em;
+                }
+            }
+            .fondoBlanco{
+                .skills{
+                    margin-left: 28.9em;
+                }
+                .tarjetas{
+                    margin-left: 4.375em;
+                }
+            }
+            .masFondo{
+                .objetivos{
+                    margin-left: 28.5em;
+                }
+                .accordion{
+                    margin-left: 25.625em;
+                }
+            }
+            .otroFondo{
+                .textTrabajos{
+                    padding-left: 31em;
+                }
+                .trabajo{
+                    padding-left: 33.125em;
+                    .imgScreen{
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        footer{
+            .contactoText{
+                padding-left: 30.2em;
+            }
+            .iconos{
+                padding-left: 46.125em;
+            }
+        }
+    }
+}

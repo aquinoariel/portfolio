@@ -1,0 +1,172 @@
+body {
+  position: relative;
+  font-family: 'Baumans', cursive;
+  background-image: url("../imagenes/fondo3.png"); }
+  body .menu {
+    font-family: 'Baumans', cursive;
+    position: absolute;
+    margin-top: 3.125em;
+    margin-left: 46.875em; }
+    body .menu ul li a {
+      color: white;
+      font-size: 1.563em; }
+  body main {
+    font-family: 'Baumans', cursive; }
+    body main div .logo {
+      width: 18.750em;
+      margin-left: 18.750em;
+      margin-top: 1.250em; }
+    body main section .yo {
+      position: absolute;
+      width: 43.750em;
+      margin-left: 38.438em;
+      margin-top: 3.688em; }
+    body main .fondoBlanco {
+      margin-top: 43.125em;
+      padding-bottom: 9.375em;
+      background-color: #f7fcfd; }
+      body main .fondoBlanco .skills {
+        display: flex;
+        margin-left: 28.900em;
+        padding-top: 10.750em;
+        margin-bottom: 5em; }
+      body main .fondoBlanco .tarjetas {
+        display: grid;
+        grid-template-columns: 18.750em 18.750em 18.750em 18.750em 18.750em;
+        grid-template-rows: 15.750em;
+        margin-top: 0em;
+        margin-left: 14.375em; }
+      body main .fondoBlanco .card-img-top {
+        width: 50%;
+        margin-left: 4.688em;
+        margin-top: 1.250em; }
+      body main .fondoBlanco .card-img-css {
+        width: 35%;
+        margin-left: 5.813em;
+        margin-top: 1.250em; }
+    body main .masFondo {
+      background-color: white; }
+      body main .masFondo .objetivos {
+        margin-left: 28.000em;
+        padding-top: 9.375em; }
+      body main .masFondo .accordion {
+        position: relative;
+        width: 50%;
+        margin-left: 31.563em;
+        padding-top: 5em;
+        padding-bottom: 9.375em; }
+    body main .otroFondo {
+      background-color: #f7fcfd; }
+      body main .otroFondo .textTrabajos {
+        padding-left: 28.100em;
+        padding-top: 9.375em; }
+      body main .otroFondo .trabajo {
+        display: grid;
+        grid-template-columns: 37.500em;
+        grid-template-rows: 21.875em 21.875em 21.875em;
+        padding-left: 40.625em;
+        padding-top: 3.125em; }
+      body main .otroFondo .imgScreen {
+        width: 100%; }
+  body footer {
+    font-family: 'Baumans', cursive;
+    background-color: white; }
+    body footer .contactoText {
+      padding-left: 28.100em;
+      padding-top: 3.125em; }
+    body footer .iconos {
+      padding-left: 55.125em; }
+      body footer .iconos .imagenContacto {
+        width: 8%; }
+
+@media only screen and (max-width: 1440px) {
+  body {
+    width: 114.3%; }
+    body main section .yo {
+      margin-left: 29.375em; }
+    body main .fondoBlanco .skills {
+      margin-left: 24.4em; }
+    body main .fondoBlanco .tarjetas {
+      margin-left: 5em; }
+    body main .masFondo .objetivos {
+      margin-left: 23.5em; }
+    body main .masFondo .accordion {
+      margin-left: 26.563em; }
+    body main .otroFondo .textTrabajos {
+      padding-left: 23.5em; }
+    body main .otroFondo .trabajo {
+      padding-left: 31.250em; }
+    body footer .contactoText {
+      padding-left: 23.7em; }
+    body footer .iconos {
+      padding-left: 46.813em; } }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 168.9%; }
+    body main section .yo {
+      margin-left: 32.188em; }
+    body main .fondoBlanco .skills {
+      margin-left: 27.2em; }
+    body main .fondoBlanco .tarjetas {
+      margin-left: 8.125em; }
+    body main .masFondo .objetivos {
+      margin-left: 26.6em; }
+    body main .masFondo .accordion {
+      margin-left: 27.813em; }
+    body main .otroFondo .textTrabajos {
+      padding-left: 26.6em; }
+    body main .otroFondo .trabajo {
+      padding-left: 34.375em; }
+    body footer .contactoText {
+      padding-left: 26.6em; }
+    body footer .iconos {
+      padding-left: 49.750em; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 224%; }
+    body .menu {
+      padding-right: 18.750em; }
+    body main section .yo {
+      margin-left: 31.563em; }
+    body main .fondoBlanco .skills {
+      padding-left: 2em; }
+    body main .fondoBlanco .tarjetas {
+      margin-left: 7.500em; }
+    body main .masFondo .objetivos {
+      padding-left: 2em; }
+    body main .masFondo .accordion {
+      margin-left: 26.875em; }
+    body main .otroFondo .textTrabajos {
+      padding-left: 29em; }
+    body main .otroFondo .imgScreen {
+      width: 100%; }
+    body footer .contactoText {
+      padding-left: 29em; }
+    body footer .iconos {
+      padding-left: 49.9em; } }
+
+@media only screen and (max-width: 425px) {
+  body {
+    width: 379%; }
+    body main section .yo {
+      margin-left: 28.125em; }
+    body main .fondoBlanco .skills {
+      margin-left: 28.9em; }
+    body main .fondoBlanco .tarjetas {
+      margin-left: 4.375em; }
+    body main .masFondo .objetivos {
+      margin-left: 28.5em; }
+    body main .masFondo .accordion {
+      margin-left: 25.625em; }
+    body main .otroFondo .textTrabajos {
+      padding-left: 31em; }
+    body main .otroFondo .trabajo {
+      padding-left: 33.125em; }
+      body main .otroFondo .trabajo .imgScreen {
+        width: 20%; }
+    body footer .contactoText {
+      padding-left: 30.2em; }
+    body footer .iconos {
+      padding-left: 46.125em; } }
